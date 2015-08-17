@@ -1,5 +1,10 @@
 $(document).ready(function() {
   $('.ryu').mouseenter(function() {
-    alert('mouse has entered .ryu div');
+    $('.ryu-still').hide();
+    $('.ryu-ready').show();
+  })
+  .mouseleave(function() {
+    $('.ryu-ready').hide();
+    $('.ryu-still').show();
   });
 });
