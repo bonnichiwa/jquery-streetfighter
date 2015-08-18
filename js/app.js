@@ -4,12 +4,12 @@ $(document).ready(function() {
 });
 
 function introFade() {
-  $('.text1').fadeIn(1000,function() {
-    $('.text2').fadeIn(1000, function() {
-      $('.text3').fadeIn(1000);
+  $('.text1').fadeIn(2000,function() {
+    $('.text2').fadeIn(2000,function() {
+      $('.text3').fadeIn(2000);
     });
   });
-});
+}
 
 function playGame() {
   $('.ryu').mouseenter(function() {
