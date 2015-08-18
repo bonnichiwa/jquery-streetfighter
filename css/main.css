@@ -58,7 +58,8 @@ body {
   background-image: url('../images/ryu-cool.gif');
 }
 
-.text, .text1, .text2, .text3 {
+.fade-text {
+  display: none;
   text-align: right;
   font-family: 'Bangers';
   color: red;
